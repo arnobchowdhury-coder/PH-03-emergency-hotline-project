@@ -4,3 +4,10 @@
   font-family: "Inter", sans-serif;
 }
 
+@media screen and (max-width:576px) {
+  .main-contant{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    flex-wrap: nowrap;
+  }
+}
