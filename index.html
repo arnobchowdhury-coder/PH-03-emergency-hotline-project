@@ -13,44 +13,37 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-  <header>
-    <div class=" nav-container flex justify-between items-center overflow-hidden  mt-4   max-w-[1250px] mx-auto  ">
-      <div class="flex items-center justify-center">
-        <img class=" w-[50px] h-[50px]" src="./assets/logo.png" alt="">
-        <h2 class="font-bold text-[#006747]">Emergency <br> Service</h2>
+<body class="bg-[#F5FFF6]">
+  <header class="max-w-[1250px] mx-auto mt-5">
+    <nav class="flex justify-between max-w-[100vw] h- py-3 px-2 items-center bg-white">
+      <div class="flex items-center">
+        <img class="h-12" src="assets/logo.png" alt="" />
+        <h2 class="ml-1 text-[#006747] font-bold lg:text-xl">Emergency<br />Service</h2>
       </div>
-      <div class="inter-font  flex  text-center items-center gap-2">
-        <div class="flex items-center justify-center gap-2  rounded-full h-[52px] w-[106px] bg-[#41ff6b1a]">
-          <p class="font-bold">0</p>
-          <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
+      <div class="flex">
+        <div class="flex  items-center bg-[#ECFFF0] py-1 px-3 rounded-full  ">
+          <h2 id="hart-value" class="font-bold text-[14px]">0</h2>
+          <img class="h-7 ml-[7px] " src="assets/heart.png" alt="" />
         </div>
-        <div class="flex gap-2 items-center justify-center bg-[#41ff6b1a] rounded-full w-[106px] h-[52px]">
-          <p class="font-bold">100</p>
-          <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt=>
+        <div class="flex items-center bg-[#ECFFF0] mx-3 py-1 px-3 rounded-full">
+          <h2 class="font-bold text-[14px]">100</h2>
+          <img class="h-7 ml-[7px] " src="assets/coin.png" alt="" />
         </div>
-        <div>
-          <button class="rounded-full  w-[100px] h-[40px]  bg-[#00A63E] text-white "> 0
-            Copy</button>
+        <div class="py-1 px-3 rounded-full bg-[#00A63E] text-white">
+          <p><span class="font-bold text-[14px]">0</span> Copy</p>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
   <main>
     <section>
       <div
-        class="grid grid-rows-1 text-center mt-3 p-4 bg-gradient-to-r from-[#013223] to-[#006747] text-white overflow-x-hidden">
-        <div class="flex items-center justify-center">
-          <img class="w-[80px] h-[80px]" src="./assets/logo.png" alt="">
-        </div>
-        <div class="text-xl font-bold ">
-          <h1>জরুরি সেবা ডিরেক্টরি</h1>
-        </div>
-        <div class="mt-2 text-xs">
-          <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
-            Bangladesh</p>
-        </div>
-      </div>
+        class="text-center px-2 py-3 bg-[linear-gradient(90deg,#013223_0%,#006747_49.99%,#013223_100%)] text-white overflow-x-hidden">
+        <img class="w-[80px] h-[80px] mx-auto" src="./assets/logo.png" alt="">
+        <h1 class="text-3xl font-bold">জরুরি সেবা ডিরেক্টরি</h1>
+        <p class="text-xs mt-2 ">Government Emergency Services at Your Fingertip – A Project by Government of the
+          People’s Republic of
+          Bangladesh</p>
       </div>
       <section class="max-w-[1250px] mx-auto mt-5">
         <div class="max-w-[100vw] px-2 mt-3 grid grid-cols-2 gap-2 md:grid-cols-3">
