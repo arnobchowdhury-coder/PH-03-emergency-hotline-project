@@ -43,10 +43,10 @@ for (const calls of callFunction) {
     const serviceNum = parentDiv.querySelector('.services-num').innerText;
     const coinValue = strToNum('coins');
     if (coinValue < 20) {
-      alert('তোমার পর্যাপ্ত পরিমাণে কয়েন নাই । তোমাকে কল করার জন্য কমপক্ষে ২০ টা কয়েন থাকতে হবে।');
+      alert('❌💰তোমার পর্যাপ্ত পরিমাণে কয়েন নাই । তোমাকে কল করার জন্য কমপক্ষে ২০ টা কয়েন থাকতে হবে।');
       return;
     }
-    alert(`calling ${serviceName} ${serviceNum}...`);
+    alert(`📞calling ${serviceName} ${serviceNum}...`);
     const totalCoin = coinValue - 20;
     document.getElementById('coins').innerText = totalCoin;
     
